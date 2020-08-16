@@ -1,0 +1,21 @@
+.footer__link {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.1;
+  text-decoration: none;
+  margin: auto;
+  color: #fff;
+}
+
+.footer__link:hover {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.1;
+  text-decoration: underline;
+  color: #fff;
+  margin: auto;
+}

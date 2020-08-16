@@ -1,0 +1,11 @@
+.place__image {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  width: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    padding-top: 2em;
+  }
+}

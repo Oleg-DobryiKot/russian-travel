@@ -1,0 +1,16 @@
+.intro__text {
+  width: 70%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: left;
+  margin: 0;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}
