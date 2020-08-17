@@ -1,5 +1,8 @@
 # Проект 3: Путешествие по России
 ### 🏠 [Страница проекта:](https://github.com/Oleg-DobryiKot/russian-travel)
+
+###  [Превью проекта:](https://oleg-dobryikot.github.io/russian-travel/index.html)
+
 ## Автор
 👤 **Олег Матвеев**
 ## 📝 License
