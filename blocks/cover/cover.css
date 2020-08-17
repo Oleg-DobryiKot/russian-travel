@@ -2,15 +2,13 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__background/cover__background.css");
 @import url("./__overlay/cover__overlay.css");
+@import url("./__text-container/cover__text-container.css");
 
 .cover {
   width: calc(100vw - 7%);
-  padding-top: 6em;
-  margin: 0 auto;
+/*  padding-top: 6em;*/
+  margin: 6em auto 0;
   position: relative;
-  /*background-image: url("../../images/cover-trains.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;*/
 }
 
 @media screen and (max-width: 1024px) {
