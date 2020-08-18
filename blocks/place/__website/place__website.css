@@ -5,8 +5,10 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   .place__website {
-    padding-top: 2em;
+    display: none;
+    padding-top: 2rem;
+    margin-left: 1rem;
   }
 }

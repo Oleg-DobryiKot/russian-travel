@@ -9,3 +9,15 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 540px) {
+  .lead__caption {
+    margin-left: 1rem;
+  }
+}

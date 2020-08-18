@@ -2,9 +2,29 @@
 
 .photo-grid {
   display: grid;
-  width: calc(100vw - 7%);
+  width: 93%;
   margin: 0 auto;
   padding-top: 92px;
-  gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 769px) {
+  .photo-grid {
+    width: calc(100% - 3rem);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .photo-grid {
+    margin: 0 auto;
+    gap: 12px;
+  }
 }

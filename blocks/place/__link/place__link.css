@@ -12,4 +12,6 @@
 .place__link:hover {
   cursor: pointer;
   color: #ffffff;
+  /*background: #DADADA;*/
+  opacity: 0.8;
 }

@@ -4,20 +4,32 @@
 @import Url("./__caption/lead__caption.css");
 
 .lead {
-  position: relative;
-  width: 77vw;
-  margin: 0 auto;
-  padding-top: 3em;
+  width: 77%;
+  margin: 56px auto 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 880px) and (max-width: 1025px) {
+  .lead {
+    width: 93%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 880px) {
   .lead {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (min-width: 450px) and (max-width: 767px) {
   .lead {
+    margin: 52px auto 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .lead {
+    margin: 48px auto 0;
     width: 100%;
   }
 }

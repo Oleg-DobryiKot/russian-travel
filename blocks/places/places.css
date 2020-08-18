@@ -3,6 +3,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0 auto;
-  /*padding-top: 5.5em;*/
+  margin: 92px auto 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .places {
+    width: 93%;
+    margin: 92px auto 0;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 769px) {
+  .places {
+    width: 100%;
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .places {
+    width: 100%;
+    margin: 64px auto 0;
+  }
 }

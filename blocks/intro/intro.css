@@ -5,15 +5,28 @@
 @import url("./__list-item-span/intro__list-item-span.css");
 
 .intro {
-  position: relative;
-  width: 77vw;
+  width: 77%;
   margin: 0 auto;
-  padding-top: 5.75em;
+  padding-top: 5.75rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 880px) and (max-width: 1025px) {
+  .intro {
+    width: 93%;
+    padding-top: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
   .intro {
     width: 100%;
-    padding-top: 4em;
+    padding-top: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .intro {
+    width: 100%;
+    padding-top: 4rem;
   }
 }
