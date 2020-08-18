@@ -7,7 +7,7 @@
   margin-bottom: 1em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__copyright {
     padding-top: 4em;
   }

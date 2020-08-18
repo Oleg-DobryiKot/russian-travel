@@ -16,13 +16,13 @@
   margin-left: 0.8rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319x) {
   .header__lang-link {
     font-size: 18px;
   }
