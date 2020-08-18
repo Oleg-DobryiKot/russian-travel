@@ -12,12 +12,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-.content {
-  max-width: 1280px;
-  min-width: 320px;
-}
-
-.body {
-  background-color: #2A2C2F;
-}
