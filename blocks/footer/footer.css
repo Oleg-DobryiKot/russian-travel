@@ -7,15 +7,15 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  width: calc(100vw - 7%);
+  width: 93%;
   padding-top: 6em;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
   .footer {
     display: flex;
-    padding-top: 4em;
+    padding-top: 64px;
     margin: 0 auto;
     flex-direction: column;
   }
