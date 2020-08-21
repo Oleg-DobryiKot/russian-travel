@@ -5,13 +5,28 @@
 
 .cover {
   width: 93%;
-  margin: 6em auto 0;
+  max-height: 740px;
+  margin: 5.75rem auto 0;
   position: relative;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    width: 100%;
+    margin: 5.5rem auto 0;
+  }
+} 
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .cover {
+    width: 100%;
+    margin: 4rem auto 0;
   }
 }

@@ -1,12 +1,11 @@
-@import url("../__overlay/cover__overlay.css");
-
 .cover__background {
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 200px;
+  height: 740px;
   color: #fff;
   text-decoration: none;
   background-image: url("../../../images/cover-trains.jpg");
@@ -15,7 +14,7 @@
   background-size: cover;
 }
 
-.cover__background:hover .cover__overlay {
+.cover__background:hover > .cover__overlay {
     opacity: 0.8;
 }
 
@@ -34,5 +33,11 @@
 @media screen and (min-width: 420px) and (max-width: 768px) {
   .cover__background {
     height: 480px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .cover__background {
+    height: 200px;
   }
 }

@@ -3,28 +3,39 @@
 .photo-grid {
   display: grid;
   width: 93%;
+  max-width: 1184px;
   margin: 0 auto;
   padding-top: 92px;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
 
-@media screen and (min-width: 770px) and (max-width: 1025px) {
+@media screen and (min-width: 930px) and (max-width: 1024px) {
   .photo-grid {
+    max-width: 928px;
     gap: 14px;
   }
 }
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .photo-grid {
+    width: 100%;
+    max-width: 720px;
+    gap: 16px;
+  }
+}
 
-@media screen and (min-width: 450px) and (max-width: 769px) {
+@media screen and (min-width: 450px) and (max-width: 640px) {
   .photo-grid {
     width: calc(100% - 3rem);
     gap: 1rem;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .photo-grid {
     margin: 0 auto;
+    width: 100%;
+    max-width: 288px;
     gap: 12px;
   }
 }
