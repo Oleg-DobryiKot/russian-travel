@@ -62,7 +62,6 @@
 
 @media screen and (min-width: 451px) and (max-width: 709px) {
   .place {
-    /* width: 100%; */
     max-width: 610px;
     display: inline-table;
     padding-top: 48px;
