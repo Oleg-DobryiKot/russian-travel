@@ -21,6 +21,7 @@
     width: 100%;
     max-width: 720px;
     gap: 16px;
+    padding-top: 88px;
   }
 }
 
@@ -28,6 +29,7 @@
   .photo-grid {
     width: calc(100% - 3rem);
     gap: 1rem;
+    padding-top: 74px;
   }
 }
 
@@ -37,5 +39,6 @@
     width: 100%;
     max-width: 288px;
     gap: 12px;
+    padding-top: 64px;
   }
 }

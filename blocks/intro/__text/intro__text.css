@@ -10,9 +10,10 @@
   padding-top: 40px;
 }
 
-@media screen and (min-width: 750px) and (max-width: 768px) {
+@media screen and (min-width: 920px) and (max-width: 980px) {
   .intro__text {
-    margin-left: 0;
+   /* max-width: 984px; */
+   margin-left: 2rem;
   }
 }
 
