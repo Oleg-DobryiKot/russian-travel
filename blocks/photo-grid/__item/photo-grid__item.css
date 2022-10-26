@@ -1,4 +1,7 @@
 .photo-grid__item {
-  max-width: 100%;
+  max-width: -webkit-fill-available;
   object-fit: cover;
+  object-position: center;
+  display: block;
+  width: 100%;
 }

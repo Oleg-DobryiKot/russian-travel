@@ -1,0 +1,14 @@
+
+.link {
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity .41s linear .41s;
+  -webkit-transition: opacity .41s linear .41s;
+  -moz-transition: opacity .41s linear .41s;
+  -ms-transition: opacity .41s linear .41s;
+  -o-transition: opacity .41s linear .41s;
+}
+
+.link:hover {
+  opacity: 0.41;
+}

@@ -1,3 +1,9 @@
 .footer__nav-container {
   max-width: 465px;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__nav-container {
+    margin-left: 5px;
+  }
+}

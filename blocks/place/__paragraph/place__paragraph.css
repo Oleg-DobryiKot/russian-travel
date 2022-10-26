@@ -1,19 +1,16 @@
 .place__paragraph {
   margin: 0 auto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
-  padding-right: .8em;
-  width: 100%;
+  line-height: 162.5%;
 }
 
 .place__paragraph:nth-of-type(2) {
-  padding-top: 1.5rem;
+  padding-top: 25px;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 163%;
   }
 }
